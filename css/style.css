@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+form {
+    border:5px solid #ACD03A;
+    padding:30px;
+    max-width:700px;
+    border-radius:20px;
+}
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.FlexContainer div {
+    margin: auto;
+    padding: 5px;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: .3s ease;
+    color: #868283;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
